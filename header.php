@@ -20,9 +20,8 @@
 <?php
     if(!$userid) {
 ?>                
-                <li><a href="member_form.php">회원 가입</a> </li>
-                <li> | </li>
-                <li><a href="login_form.php">로그인</a></li>
+                <li class="rightmenu"><a href="member_form.php">회원 가입</a> </li>
+                <li class="rightmenu"><a href="login_form.php">로그인</a></li>
 <?php
     } else {
                 $logged = $username."(".$userid.")님[Level:".$userlevel.", Point:".$userpoint."]";

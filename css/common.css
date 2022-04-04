@@ -17,17 +17,21 @@ a:active { text-decoration:none; color: #222222; }
 #top li {font-size:11px}
 #top #top_menu { float: right; margin: 30px 60px 0 0;}
 #top #top_menu li { display: inline; }
-#menu_bar { height: 48px; background-color: #D4F4FA; font-size: 20px; 
+#top #top_menu li.rightmenu { width:100px;height:36px; line-height:32px; margin-top:12px;margin-left:10px; padding : 0 10px; border:4px solid #80F5FF; border-radius:50px;  font-size:15px;}
+#top #top_menu li.rightmenu > a{color:#80F5FF; font-weight:700;}
+#top #top_menu li.rightmenu > a:hover{color:white; font-weight:700;}
+#top #top_menu li.rightmenu:hover{ background:#80F5FF;}
+#menu_bar { height: 48px; border-bottom :1px solid #D4F4FA;border-top :1px solid #D4F4FA; font-size: 18px; 
 		font-family: 'Nanum Brush Script', cursive; }
-#menu_bar ul { width: 1000px; margin: 0 auto; padding: 14px 0 0 40px;}
-#menu_bar ul ul{display:none; position:absolute;}/*상단바숨기기*/
-#menu_bar ul ul li{float:none; color:black; background-color:#D4F4FA ;width :10%}/*세로로보기*/
-#menu_bar ul li:hover ul{display:block;}
-#menu_bar .menu { display: inline-block; margin-left: 80px;}
-#menu_bar li a { font-size : 25px; padding : 1px 14px;}
-#menu_bar li a.submenu { font-size : 100%;}
+#menu_bar ul { width: 1000px; margin: 0 auto; padding: 14px 0 0 40px; }
+#menu_bar ul ul{display:none; padding: 14px 0 0 0px; text-align:center;position:absolute; clear:both;background-color:#D4F4FA;width :auto; }/*상단바숨기기*/
+#menu_bar ul ul li{float:none; color:black;}/*세로로보기*/
+#menu_bar ul li:hover ul{display:block;  clear:both;}
+#menu_bar .menu { display: inline-block; margin-left: 90px;font-weight:bold}
+#menu_bar li a { font-size : 23px; padding : 0px 14px;}
+#menu_bar li a.submenu { font-size : 28px; font-weight:normal;}
 #menu_bar li a:link { color: black; }
-#menu_bar li a:hover {background-color:#008299;}
+#menu_bar li a:hover {color: #FFFFFF; background-color:#008299;font-weight:bold}
 #menu_bar li a:visited { color: black; }
 #menu_bar li a:active { color: black; }
 /* 메인 이미지 */
